@@ -1,0 +1,55 @@
+body {
+    height: 300px;
+    background-size: cover;
+    background-image: url("okinawa.avif");
+    background-attachment: fixed;
+  }
+
+p{
+    height: 30px;
+}
+
+.contair{
+    text-align: center;
+}
+
+.mb-5{
+    font-size: large;
+}
+
+.md-6{
+    margin-top: 60px;
+}
+
+.md-6 p{
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    color: aliceblue;
+    font-style: italic;
+    text-shadow: 1px 2px 3px #002900;
+}
+
+.form-control{
+    margin: 10px;
+    width: 500px;
+}
+
+.submit-btn{
+    margin-top: 20px;
+    color: #fff;
+    border-top: 4px solid #48ecc4;
+    border-right: 4px solid #0a5f4a;
+    border-bottom: 4px solid #0f745b;
+    border-left: 4px solid #8cf9de;
+    border-radius: 0;
+    background: #11a37f;
+    font-size: 20px;
+}
+
+.submit-btn:hover{
+    color: #fff;
+    border-top: 4px solid #0f745b;
+    border-right: 4px solid #8cf9de;
+    border-bottom: 4px solid #48ecc4;
+    border-left: 4px solid #0a5f4a;
+}
