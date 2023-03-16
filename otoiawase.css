@@ -1,32 +1,21 @@
 body {
-    height: 300px;
     background-size: cover;
-    background-image: url("okinawa.avif");
+    background-image: url("sunahama.webp");
     background-attachment: fixed;
   }
-
-p{
-    height: 30px;
-}
 
 .contair{
     text-align: center;
 }
 
-.mb-5{
-    font-size: large;
-}
-
-.md-6{
-    margin-top: 60px;
-}
-
-.md-6 p{
+.form p{
     font-size: 60px;
     font-family: 'Amatic SC', cursive;
-    color: aliceblue;
     font-style: italic;
+    color: aliceblue;
     text-shadow: 1px 2px 3px #002900;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 .form-control{
@@ -52,4 +41,29 @@ p{
     border-right: 4px solid #8cf9de;
     border-bottom: 4px solid #48ecc4;
     border-left: 4px solid #0a5f4a;
+}
+
+.under{
+
+  height: 10px;
+}
+
+.gazou{
+  text-align: center;
+}
+
+.sisa{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sisa img{
+  width: 50%;
+  height: 15vw;
+  object-fit: cover;
+
+}
+
+.photo{
+  margin: 10px;
 }
